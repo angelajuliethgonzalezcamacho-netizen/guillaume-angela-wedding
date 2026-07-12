@@ -1,0 +1,104 @@
+/* ==================================================
+   NOTRE HISTOIRE
+   Guillaume & Angela
+================================================== */
+
+.history{
+    position:relative;
+    padding:40px 40px 80px;
+
+    background:
+        url("../images/background.png") center top / cover repeat-y;
+}
+
+.history-container{
+    width:100%;
+    max-width:1200px;
+    margin:0 auto;
+}
+
+.history-wrapper{
+    position:relative;
+    width:100%;
+    max-width:1200px;
+    margin:0 auto;
+}
+
+.history-background{
+    display:block;
+    width:100%;
+    height:auto;
+}
+
+.history-gallery{
+    position:absolute;
+    inset:0;
+}
+
+/* ======================================
+   FOTOGRAFÍAS
+====================================== */
+
+.photo{
+    position:absolute;
+    object-fit:cover;
+    border-radius:18px;
+    box-shadow:0 12px 30px rgba(0,0,0,.18);
+}
+
+/* Izquierda */
+
+.photo-left{
+    width:17%;
+    aspect-ratio:1/1;
+    left:17.8%;
+    top:62.8%;
+}
+
+/* Centro */
+
+.photo-center{
+    width:26%;
+    aspect-ratio:3/4;
+    left:37%;
+    top:49.2%;
+}
+
+/* Derecha */
+
+.photo-right{
+    width:17%;
+    aspect-ratio:1/1;
+    right:17.8%;
+    top:62.8%;
+}
+
+/* ======================================
+   RESPONSIVE
+====================================== */
+
+@media (max-width:768px){
+
+.history{
+    padding:30px 15px 60px;
+}
+
+.photo-left{
+    width:22%;
+    left:10%;
+    top:66%;
+}
+
+.photo-center{
+    width:34%;
+    left:33%;
+    top:55%;
+}
+
+.photo-right{
+    width:22%;
+    right:10%;
+    top:66%;
+}
+
+}

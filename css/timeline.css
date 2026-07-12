@@ -1,0 +1,199 @@
+/* ==========================================
+   LE GRAND JOUR
+========================================== */
+
+.timeline{
+
+    position:relative;
+
+    min-height:auto;
+
+    padding:50px 30px 70px;
+
+    background:
+        url("../images/background.png")
+        center center / cover no-repeat;
+
+    overflow:hidden;
+
+}
+
+.timeline-container{
+
+    position:relative;
+    z-index:2;
+
+    max-width:900px;
+    margin:0 auto;
+
+    text-align:center;
+
+}
+
+.timeline-title-fr{
+
+    font-family:'Cormorant Garamond',serif;
+    font-size:56px;
+    font-weight:300;
+    letter-spacing:8px;
+    color:#b08b4d;
+    margin-bottom:10px;
+
+}
+
+.timeline-title-es{
+
+    font-family:'Cormorant Garamond',serif;
+    font-size:22px;
+    font-weight:300;
+    letter-spacing:4px;
+    color:#b89963;
+    margin-bottom:30px;
+
+}
+
+.timeline-divider{
+
+    width:140px;
+    height:1px;
+    background:#b89963;
+    margin:0 auto 40px;
+
+}
+
+.timeline-date{
+
+    font-family:'Cormorant Garamond',serif;
+    font-size:28px;
+    color:#8f6b35;
+
+    margin-bottom:25px;
+
+}
+
+.timeline-item{
+
+    padding:28px 0;
+
+    border-bottom:1px solid rgba(184,153,99,.35);
+
+}
+
+.timeline-item:last-child{
+
+    border-bottom:none;
+
+}
+
+.time{
+
+    display:block;
+    font-family:'Cormorant Garamond',serif;
+    font-size:34px;
+    color:#b08b4d;
+    margin-bottom:10px;
+
+}
+
+.event-fr{
+
+    font-family:'Cormorant Garamond',serif;
+    font-size:28px;
+    font-weight:400;
+    color:#6b5533;
+
+}
+
+.event-es{
+
+    font-family:'Cormorant Garamond',serif;
+    font-size:20px;
+    font-weight:300;
+    color:#9b8152;
+    margin-top:5px;
+
+}
+
+.timeline-line{
+
+    width:120px;
+    height:1px;
+    background:#d8c49a;
+    margin:0 auto;
+
+}
+
+@media(max-width:768px){
+
+.timeline{
+
+    padding:80px 20px;
+
+}
+
+.timeline-title-fr{
+
+    font-size:38px;
+    letter-spacing:4px;
+
+}
+
+.timeline-title-es{
+
+    font-size:18px;
+
+}
+
+.timeline-date{
+
+    font-size:22px;
+
+}
+
+.time{
+
+    font-size:28px;
+
+}
+
+.event-fr{
+
+    font-size:24px;
+
+}
+
+.event-es{
+
+    font-size:18px;
+
+}
+
+}/* ======================================
+   ICONOS TIMELINE
+====================================== */
+
+.timeline-icons{
+
+    display:block;
+
+    width:360px;
+    max-width:85%;
+
+    margin:20px auto 30px;
+
+    opacity:.95;
+
+
+}.timeline-note{
+
+    font-family:'Cormorant Garamond',serif;
+
+    font-size:18px;
+
+    color:#9b8152;
+
+    margin-top:8px;
+
+    font-style:italic;
+
+}
