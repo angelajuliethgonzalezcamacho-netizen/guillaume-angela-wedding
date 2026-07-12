@@ -496,32 +496,41 @@ Découvrez Nantes
             cette journée avec vous.
 
         </p>
+<form
+    class="rsvp-form"
+    action="https://formsubmit.co/guillaume.ledantec@orange.fr"
+    method="POST">
 
-        <form class="rsvp-form">
+    <input
+        id="nameInput"
+        name="Nom"
+        type="text"
+        placeholder="Nom et prénom"
+        required>
 
-            <input
-                id="nameInput"
-                type="text"
-                placeholder="Nom et prénom">
+    <input
+        id="guestsInput"
+        name="Nombre de personnes"
+        type="number"
+        placeholder="Nombre de personnes"
+        required>
 
-            <input
-                id="guestsInput"
-                type="number"
-                placeholder="Nombre de personnes">
+    <textarea
+        id="foodInput"
+        name="Restrictions alimentaires"
+        placeholder="Restrictions alimentaires"></textarea>
 
-            <textarea
-                id="foodInput"
-                placeholder="Restrictions alimentaires"></textarea>
+    <button
+        id="confirmBtn"
+        type="submit">
+        Confirmer ma présence
+    </button>
 
-            <button
-                id="confirmBtn"
-                type="submit">
+    <input type="hidden" name="_subject" value="Nouvelle confirmation de mariage">
+    <input type="hidden" name="_captcha" value="false">
+    <input type="hidden" name="_template" value="table">
 
-                Confirmer ma présence
-
-            </button>
-
-        </form>
+</form>
 
         <p
            id="deadline"
