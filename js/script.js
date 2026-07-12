@@ -70,7 +70,7 @@ reception:
 
 dressTitle:"DRESS CODE",
 
-dressSubtitle:"Tenue élégante",
+dressSubtitle:"Tenue de couleur beige",
 
 gentlemenTitle:"MESSIEURS",
 
@@ -90,7 +90,7 @@ deadline:"Réponse souhaitée avant le 25 août 2026",
 
 thanksTitle:"MERCI",
 
-thanksMessage:"Merci de nous accompagner pour célébrer notre union et le début de notre histoire.",
+thanksMessage:"Merci de nous accompagner pour célébrer le début de notre histoire.",
 
 thanksDate:"03 octobre 2026 · Nantes"
 
@@ -191,7 +191,11 @@ document.documentElement.lang = lang;
 
 document.getElementById("heroText").innerHTML = text[lang].heroText;
 
-document.getElementById("date").textContent = text[lang].date;
+const date = document.getElementById("date");
+
+if(date){
+    date.textContent = text[lang].date;
+}
 
 document.getElementById("enterBtn").textContent = text[lang].enter;
 
