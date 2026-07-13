@@ -70,15 +70,15 @@ reception:
 
 dressTitle:"DRESS CODE",
 
-dressSubtitle:"Tenue de couleur beige",
+dressSubtitle:"Tenue élégante",
 
 gentlemenTitle:"MESSIEURS",
 
-gentlemenText:"Costume beige",
+gentlemenText:"Tenue de couleur beige",
 
 ladiesTitle:"DAMES",
 
-ladiesText:"Tenue cocktail élégante",
+ladiesText:"Robe cocktail élégante de la couleur de votre choix",
 
 rsvpTitle:"RSVP",
 
